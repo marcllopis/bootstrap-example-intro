@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>HELLOO FROM THE DESKTOP!</h1>
+    <h1 class="phone-header">HEY THERE FROM MY PHONE!</h1>
+    <div class="container"></div> -->
+    <!-- <div class="example">
+      <div class="box"></div>
+      <div class="box special"></div>
+      <div class="box"></div>
+    </div> -->
+
+    <!-- <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">Column</div>
+        <div class="col-md-8">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, dicta
+          id veniam quam consequuntur assumenda ut tempore enim. Consectetur,
+          voluptates.
+        </div>
+        <div class="col-md-2">Column</div>
+      </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>cool bootstrap stuff</h1>
+
+    <button type="button" class="btn btn-danger custom-btn">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <div class="alert alert-primary" role="alert">
+      A simple primary alert—check it out!
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.18169-9/17424755_1653572881615779_2767576098269981431_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=vs3uw95jJroAX8kNRBT&_nc_ht=scontent-mad1-1.xx&oh=00_AT9MNNnjunG24w5cXt3A8HwkIKKWnLnUHostxJ5MTbZS9A&oe=624C218A"
+              class="card-img-top"
+              alt="funny dog blabla"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.18169-9/17424755_1653572881615779_2767576098269981431_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=vs3uw95jJroAX8kNRBT&_nc_ht=scontent-mad1-1.xx&oh=00_AT9MNNnjunG24w5cXt3A8HwkIKKWnLnUHostxJ5MTbZS9A&oe=624C218A"
+              class="card-img-top"
+              alt="funny dog blabla"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.18169-9/17424755_1653572881615779_2767576098269981431_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=vs3uw95jJroAX8kNRBT&_nc_ht=scontent-mad1-1.xx&oh=00_AT9MNNnjunG24w5cXt3A8HwkIKKWnLnUHostxJ5MTbZS9A&oe=624C218A"
+              class="card-img-top"
+              alt="funny dog blabla"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="custom-carousel">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.18169-9/17424755_1653572881615779_2767576098269981431_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=vs3uw95jJroAX8kNRBT&_nc_ht=scontent-mad1-1.xx&oh=00_AT9MNNnjunG24w5cXt3A8HwkIKKWnLnUHostxJ5MTbZS9A&oe=624C218A"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.18169-9/17424755_1653572881615779_2767576098269981431_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=vs3uw95jJroAX8kNRBT&_nc_ht=scontent-mad1-1.xx&oh=00_AT9MNNnjunG24w5cXt3A8HwkIKKWnLnUHostxJ5MTbZS9A&oe=624C218A"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.18169-9/17424755_1653572881615779_2767576098269981431_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=9267fe&_nc_ohc=vs3uw95jJroAX8kNRBT&_nc_ht=scontent-mad1-1.xx&oh=00_AT9MNNnjunG24w5cXt3A8HwkIKKWnLnUHostxJ5MTbZS9A&oe=624C218A"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
